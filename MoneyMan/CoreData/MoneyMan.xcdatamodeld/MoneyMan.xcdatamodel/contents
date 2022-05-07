@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21D62" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="AssetEntity" representedClassName="AssetEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="brands" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BrandEntity" inverseName="assets" inverseEntity="BrandEntity"/>
+    </entity>
+    <entity name="BrandEntity" representedClassName="BrandEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="assets" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AssetEntity" inverseName="brands" inverseEntity="AssetEntity"/>
+    </entity>
+    <entity name="CryptoWalletEntity" representedClassName=".CryptoWalletEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="AssetEntity" positionX="-54" positionY="9" width="128" height="59"/>
+        <element name="BrandEntity" positionX="-63" positionY="0" width="128" height="59"/>
+        <element name="CryptoWalletEntity" positionX="-63" positionY="-9" width="128" height="59"/>
+    </elements>
+</model>
