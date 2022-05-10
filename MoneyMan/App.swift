@@ -37,3 +37,15 @@ extension Optional where Wrapped == String {
         }
     }
 }
+
+extension Date {
+    var timestamp: String {
+        let df = DateFormatter()
+        df.dateFormat = "yyyy-MM-dd hh:mm:ss"
+        return df.string(from: self)
+    }
+}
+
+extension Formatter {
+    static let number = NumberFormatter()
+}

@@ -15,7 +15,30 @@
 		011A97D8280BDDF700CFD539 /* CryptoWalletModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A97D7280BDDF700CFD539 /* CryptoWalletModel.swift */; };
 		011A97DB280BE5B700CFD539 /* CryptoWalletListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011A97DA280BE5B700CFD539 /* CryptoWalletListView.swift */; };
 		015C2A37282726EF0048CED6 /* CryptoWalletCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015C2A36282726EF0048CED6 /* CryptoWalletCreateView.swift */; };
+		015C2A3A282972820048CED6 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015C2A39282972820048CED6 /* TransactionModel.swift */; };
+		015C2A3C2829736C0048CED6 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015C2A3B2829736C0048CED6 /* TransactionListView.swift */; };
+		015C2A3E282977360048CED6 /* TransactionEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015C2A3D282977360048CED6 /* TransactionEditView.swift */; };
 		01A4529E280BE8E800D7C5A8 /* CryptoWalletEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4529D280BE8E800D7C5A8 /* CryptoWalletEditView.swift */; };
+		01C07BAB2829A3010003D226 /* TransactionCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C07BAA2829A3010003D226 /* TransactionCreateView.swift */; };
+		01C07BAE2829AE880003D226 /* TransactionCategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C07BAD2829AE870003D226 /* TransactionCategoryListView.swift */; };
+		01C07BB02829AFDB0003D226 /* TransactionCategoryCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C07BAF2829AFDB0003D226 /* TransactionCategoryCreateView.swift */; };
+		01C07BB22829B0040003D226 /* TransactionCategoryEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C07BB12829B0040003D226 /* TransactionCategoryEditView.swift */; };
+		01C07BB52829B40E0003D226 /* TransactionAccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C07BB42829B40E0003D226 /* TransactionAccountListView.swift */; };
+		01C07BB72829B4190003D226 /* TransactionAccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C07BB62829B4190003D226 /* TransactionAccountModel.swift */; };
+		01C07BB92829B4740003D226 /* TransactionCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C07BB82829B4740003D226 /* TransactionCategoryModel.swift */; };
+		01C07BBB2829B4BD0003D226 /* TransactionAccountListViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C07BBA2829B4BD0003D226 /* TransactionAccountListViewContent.swift */; };
+		01C07BBD2829B6540003D226 /* TransactionAccountEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C07BBC2829B6540003D226 /* TransactionAccountEditView.swift */; };
+		01C07BC02829B6D80003D226 /* TransactionBankEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C07BBF2829B6D80003D226 /* TransactionBankEditView.swift */; };
+		01C07BC22829B74A0003D226 /* TransactionBankListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C07BC12829B74A0003D226 /* TransactionBankListView.swift */; };
+		01C07BC42829B7760003D226 /* TransactionBankListViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C07BC32829B7760003D226 /* TransactionBankListViewContent.swift */; };
+		01C07BC62829B91C0003D226 /* TransactionBankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C07BC52829B91C0003D226 /* TransactionBankModel.swift */; };
+		01C07BC82829BA290003D226 /* TransactionCategoryListViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C07BC72829BA290003D226 /* TransactionCategoryListViewContent.swift */; };
+		01C07BCB282A29DA0003D226 /* AssetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C07BCA282A29DA0003D226 /* AssetModel.swift */; };
+		01C07BCD282AE4790003D226 /* TransactionAccountCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C07BCC282AE4790003D226 /* TransactionAccountCreateView.swift */; };
+		01C07BDE282AFC080003D226 /* NavigationTitleViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C07BDD282AFC080003D226 /* NavigationTitleViewModifier.swift */; };
+		01C07BE0282AFEF30003D226 /* EmptyStateViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C07BDF282AFEF30003D226 /* EmptyStateViewModifier.swift */; };
+		01C07BE2282B01340003D226 /* CustomBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C07BE1282B01340003D226 /* CustomBackButton.swift */; };
+		01C07BE4282B02BE0003D226 /* TransactionBankCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C07BE3282B02BE0003D226 /* TransactionBankCreateView.swift */; };
 		F71191F6306976611407DA34 /* Pods_MoneyMan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C5A79CA3ACAE1A0E81C23C /* Pods_MoneyMan.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +53,30 @@
 		011A97D7280BDDF700CFD539 /* CryptoWalletModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWalletModel.swift; sourceTree = "<group>"; };
 		011A97DA280BE5B700CFD539 /* CryptoWalletListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWalletListView.swift; sourceTree = "<group>"; };
 		015C2A36282726EF0048CED6 /* CryptoWalletCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWalletCreateView.swift; sourceTree = "<group>"; };
+		015C2A39282972820048CED6 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		015C2A3B2829736C0048CED6 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
+		015C2A3D282977360048CED6 /* TransactionEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionEditView.swift; sourceTree = "<group>"; };
 		01A4529D280BE8E800D7C5A8 /* CryptoWalletEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWalletEditView.swift; sourceTree = "<group>"; };
+		01C07BAA2829A3010003D226 /* TransactionCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCreateView.swift; sourceTree = "<group>"; };
+		01C07BAD2829AE870003D226 /* TransactionCategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCategoryListView.swift; sourceTree = "<group>"; };
+		01C07BAF2829AFDB0003D226 /* TransactionCategoryCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCategoryCreateView.swift; sourceTree = "<group>"; };
+		01C07BB12829B0040003D226 /* TransactionCategoryEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCategoryEditView.swift; sourceTree = "<group>"; };
+		01C07BB42829B40E0003D226 /* TransactionAccountListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionAccountListView.swift; sourceTree = "<group>"; };
+		01C07BB62829B4190003D226 /* TransactionAccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionAccountModel.swift; sourceTree = "<group>"; };
+		01C07BB82829B4740003D226 /* TransactionCategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCategoryModel.swift; sourceTree = "<group>"; };
+		01C07BBA2829B4BD0003D226 /* TransactionAccountListViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionAccountListViewContent.swift; sourceTree = "<group>"; };
+		01C07BBC2829B6540003D226 /* TransactionAccountEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionAccountEditView.swift; sourceTree = "<group>"; };
+		01C07BBF2829B6D80003D226 /* TransactionBankEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionBankEditView.swift; sourceTree = "<group>"; };
+		01C07BC12829B74A0003D226 /* TransactionBankListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionBankListView.swift; sourceTree = "<group>"; };
+		01C07BC32829B7760003D226 /* TransactionBankListViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionBankListViewContent.swift; sourceTree = "<group>"; };
+		01C07BC52829B91C0003D226 /* TransactionBankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionBankModel.swift; sourceTree = "<group>"; };
+		01C07BC72829BA290003D226 /* TransactionCategoryListViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCategoryListViewContent.swift; sourceTree = "<group>"; };
+		01C07BCA282A29DA0003D226 /* AssetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetModel.swift; sourceTree = "<group>"; };
+		01C07BCC282AE4790003D226 /* TransactionAccountCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionAccountCreateView.swift; sourceTree = "<group>"; };
+		01C07BDD282AFC080003D226 /* NavigationTitleViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleViewModifier.swift; sourceTree = "<group>"; };
+		01C07BDF282AFEF30003D226 /* EmptyStateViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateViewModifier.swift; sourceTree = "<group>"; };
+		01C07BE1282B01340003D226 /* CustomBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButton.swift; sourceTree = "<group>"; };
+		01C07BE3282B02BE0003D226 /* TransactionBankCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionBankCreateView.swift; sourceTree = "<group>"; };
 		75806370DB482FFA5FB12CF6 /* Pods-MoneyMan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyMan.debug.xcconfig"; path = "Target Support Files/Pods-MoneyMan/Pods-MoneyMan.debug.xcconfig"; sourceTree = "<group>"; };
 		96C5A79CA3ACAE1A0E81C23C /* Pods_MoneyMan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyMan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB82740413E152AF2729C030 /* Pods-MoneyMan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyMan.release.xcconfig"; path = "Target Support Files/Pods-MoneyMan/Pods-MoneyMan.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +115,9 @@
 		011A97A7280BDCB100CFD539 /* MoneyMan */ = {
 			isa = PBXGroup;
 			children = (
+				01C07BDC282AFBFB0003D226 /* General */,
+				01C07BC9282A29D00003D226 /* Assets */,
+				015C2A38282972740048CED6 /* Transactions */,
 				015C2A29282711300048CED6 /* CoreData */,
 				011A97D9280BE45600CFD539 /* CryptoWallet */,
 				011A97B1280BDCB300CFD539 /* Persistence.swift */,
@@ -105,6 +154,74 @@
 				011A97B3280BDCB300CFD539 /* MoneyMan.xcdatamodeld */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		015C2A38282972740048CED6 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				01C07BBE2829B6B50003D226 /* Bank */,
+				01C07BB32829B3F40003D226 /* Account */,
+				01C07BAC2829A8940003D226 /* Category */,
+				015C2A39282972820048CED6 /* TransactionModel.swift */,
+				015C2A3B2829736C0048CED6 /* TransactionListView.swift */,
+				015C2A3D282977360048CED6 /* TransactionEditView.swift */,
+				01C07BAA2829A3010003D226 /* TransactionCreateView.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		01C07BAC2829A8940003D226 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				01C07BB82829B4740003D226 /* TransactionCategoryModel.swift */,
+				01C07BAD2829AE870003D226 /* TransactionCategoryListView.swift */,
+				01C07BC72829BA290003D226 /* TransactionCategoryListViewContent.swift */,
+				01C07BAF2829AFDB0003D226 /* TransactionCategoryCreateView.swift */,
+				01C07BB12829B0040003D226 /* TransactionCategoryEditView.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		01C07BB32829B3F40003D226 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				01C07BB62829B4190003D226 /* TransactionAccountModel.swift */,
+				01C07BB42829B40E0003D226 /* TransactionAccountListView.swift */,
+				01C07BBA2829B4BD0003D226 /* TransactionAccountListViewContent.swift */,
+				01C07BBC2829B6540003D226 /* TransactionAccountEditView.swift */,
+				01C07BCC282AE4790003D226 /* TransactionAccountCreateView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		01C07BBE2829B6B50003D226 /* Bank */ = {
+			isa = PBXGroup;
+			children = (
+				01C07BC52829B91C0003D226 /* TransactionBankModel.swift */,
+				01C07BC12829B74A0003D226 /* TransactionBankListView.swift */,
+				01C07BBF2829B6D80003D226 /* TransactionBankEditView.swift */,
+				01C07BC32829B7760003D226 /* TransactionBankListViewContent.swift */,
+				01C07BE3282B02BE0003D226 /* TransactionBankCreateView.swift */,
+			);
+			path = Bank;
+			sourceTree = "<group>";
+		};
+		01C07BC9282A29D00003D226 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				01C07BCA282A29DA0003D226 /* AssetModel.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		01C07BDC282AFBFB0003D226 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				01C07BDD282AFC080003D226 /* NavigationTitleViewModifier.swift */,
+				01C07BDF282AFEF30003D226 /* EmptyStateViewModifier.swift */,
+				01C07BE1282B01340003D226 /* CustomBackButton.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 		12C01980A3A89AAD3BC5C456 /* Frameworks */ = {
@@ -237,14 +354,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C07BB22829B0040003D226 /* TransactionCategoryEditView.swift in Sources */,
+				015C2A3A282972820048CED6 /* TransactionModel.swift in Sources */,
+				01C07BC02829B6D80003D226 /* TransactionBankEditView.swift in Sources */,
+				01C07BB92829B4740003D226 /* TransactionCategoryModel.swift in Sources */,
+				01C07BBB2829B4BD0003D226 /* TransactionAccountListViewContent.swift in Sources */,
+				01C07BE0282AFEF30003D226 /* EmptyStateViewModifier.swift in Sources */,
+				01C07BDE282AFC080003D226 /* NavigationTitleViewModifier.swift in Sources */,
+				01C07BB02829AFDB0003D226 /* TransactionCategoryCreateView.swift in Sources */,
+				01C07BCB282A29DA0003D226 /* AssetModel.swift in Sources */,
 				015C2A37282726EF0048CED6 /* CryptoWalletCreateView.swift in Sources */,
 				01A4529E280BE8E800D7C5A8 /* CryptoWalletEditView.swift in Sources */,
+				01C07BC62829B91C0003D226 /* TransactionBankModel.swift in Sources */,
+				01C07BCD282AE4790003D226 /* TransactionAccountCreateView.swift in Sources */,
+				01C07BE4282B02BE0003D226 /* TransactionBankCreateView.swift in Sources */,
+				01C07BAB2829A3010003D226 /* TransactionCreateView.swift in Sources */,
 				011A97B2280BDCB300CFD539 /* Persistence.swift in Sources */,
+				01C07BC82829BA290003D226 /* TransactionCategoryListViewContent.swift in Sources */,
 				011A97D8280BDDF700CFD539 /* CryptoWalletModel.swift in Sources */,
 				011A97DB280BE5B700CFD539 /* CryptoWalletListView.swift in Sources */,
 				011A97B5280BDCB300CFD539 /* MoneyMan.xcdatamodeld in Sources */,
+				01C07BB52829B40E0003D226 /* TransactionAccountListView.swift in Sources */,
+				01C07BC42829B7760003D226 /* TransactionBankListViewContent.swift in Sources */,
+				01C07BB72829B4190003D226 /* TransactionAccountModel.swift in Sources */,
+				01C07BE2282B01340003D226 /* CustomBackButton.swift in Sources */,
+				015C2A3C2829736C0048CED6 /* TransactionListView.swift in Sources */,
 				011A97AB280BDCB100CFD539 /* MainView.swift in Sources */,
+				015C2A3E282977360048CED6 /* TransactionEditView.swift in Sources */,
 				011A97A9280BDCB100CFD539 /* App.swift in Sources */,
+				01C07BBD2829B6540003D226 /* TransactionAccountEditView.swift in Sources */,
+				01C07BAE2829AE880003D226 /* TransactionCategoryListView.swift in Sources */,
+				01C07BC22829B74A0003D226 /* TransactionBankListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

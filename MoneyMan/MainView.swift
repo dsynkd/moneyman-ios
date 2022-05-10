@@ -12,11 +12,16 @@ struct MainView: View {
     
     var body: some View {
         TabView {
+            TransactionListView()
+            .tabItem {
+                Image(systemName: "dollarsign.circle")
+                Text("Transactions")
+            }
             CryptoWalletListView()
-                .tabItem {
-                    Image(systemName: "bitcoinsign.circle")
-                    Text("Wallet")
-                }
+            .tabItem {
+                Image(systemName: "bitcoinsign.circle")
+                Text("Wallet")
+            }
         }
     }
 }

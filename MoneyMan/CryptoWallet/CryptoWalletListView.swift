@@ -44,7 +44,7 @@ struct CryptoWalletListView: View {
             .toolbar {
                 ToolbarItem {
                     Button(action: { presentCreateCryptoWallet = true }) {
-                        Label("Add Item", systemImage: "plus")
+                        Label("Add Wallet", systemImage: "plus")
                     }
                 }
             }
