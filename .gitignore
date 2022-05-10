@@ -1,3 +1,7 @@
 Pods
+package-lock.json
+MoneyMan.xcworkspace
 node_modules
 Podfile.lock
+*.xcbkptlist
+*.xcuserstate

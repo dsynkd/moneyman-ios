@@ -104,8 +104,7 @@ struct TransactionEditView: View {
     }
     
     private func saveTransaction() {
-        let transaction = TransactionEntity(from: transaction, context: viewContext)
+        let _ = TransactionEntity(from: transaction, context: viewContext)
         try! viewContext.save()
-        dismiss()
     }
 }
