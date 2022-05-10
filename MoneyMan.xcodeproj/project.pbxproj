@@ -47,7 +47,6 @@
 		011A97A8280BDCB100CFD539 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		011A97AA280BDCB100CFD539 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		011A97AC280BDCB300CFD539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		011A97AF280BDCB300CFD539 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		011A97B1280BDCB300CFD539 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		011A97B4280BDCB300CFD539 /* MoneyMan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoneyMan.xcdatamodel; sourceTree = "<group>"; };
 		011A97D7280BDDF700CFD539 /* CryptoWalletModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWalletModel.swift; sourceTree = "<group>"; };
@@ -120,21 +119,11 @@
 				015C2A38282972740048CED6 /* Transactions */,
 				015C2A29282711300048CED6 /* CoreData */,
 				011A97D9280BE45600CFD539 /* CryptoWallet */,
-				011A97B1280BDCB300CFD539 /* Persistence.swift */,
 				011A97AA280BDCB100CFD539 /* MainView.swift */,
 				011A97A8280BDCB100CFD539 /* App.swift */,
 				011A97AC280BDCB300CFD539 /* Assets.xcassets */,
-				011A97AE280BDCB300CFD539 /* Preview Content */,
 			);
 			path = MoneyMan;
-			sourceTree = "<group>";
-		};
-		011A97AE280BDCB300CFD539 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				011A97AF280BDCB300CFD539 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		011A97D9280BE45600CFD539 /* CryptoWallet */ = {
@@ -151,6 +140,7 @@
 		015C2A29282711300048CED6 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				011A97B1280BDCB300CFD539 /* Persistence.swift */,
 				011A97B3280BDCB300CFD539 /* MoneyMan.xcdatamodeld */,
 			);
 			path = CoreData;
@@ -513,7 +503,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MoneyMan/Preview Content\"";
 				DEVELOPMENT_TEAM = 9B6JZHW6GG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -543,7 +532,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MoneyMan/Preview Content\"";
 				DEVELOPMENT_TEAM = 9B6JZHW6GG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
