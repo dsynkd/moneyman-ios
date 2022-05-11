@@ -26,7 +26,7 @@ struct CryptoWalletEditView: View {
                 HStack {
                     Text("Name")
                     Spacer()
-                    TextField("Name", text: $wallet.name.bound)
+                    TextField("Name", text: $wallet.name)
                         .multilineTextAlignment(.trailing)
                 }
             }

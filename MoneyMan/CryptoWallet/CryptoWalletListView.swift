@@ -11,7 +11,6 @@ import SwiftUI
 struct CryptoWalletListView: View {
     
     @Environment(\.managedObjectContext) private var viewContext
-
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \CryptoWalletEntity.address, ascending: true)],
         animation: .default) private var walletEntities: FetchedResults<CryptoWalletEntity>
@@ -41,6 +40,8 @@ struct CryptoWalletListView: View {
             }
             .listStyle(.grouped)
             .searchable(text: $searchText)
+            .navigationTitle("Wallets")
+            .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem {
                     Button(action: { presentCreateCryptoWallet = true }) {
@@ -48,8 +49,6 @@ struct CryptoWalletListView: View {
                     }
                 }
             }
-            .navigationTitle("Wallets")
-            .navigationBarTitleDisplayMode(.inline)
         }.sheet(isPresented: $presentCreateCryptoWallet) {
             CryptoWalletCreateView()
         }

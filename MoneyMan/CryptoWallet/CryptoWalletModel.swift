@@ -10,7 +10,7 @@ import Foundation
 import web3swift
 
 struct CryptoWallet: Hashable, Identifiable {
-    var name: String?
+    var name: String = ""
     var address: String = ""
     var balance: String {
         let web3 = Web3.InfuraMainnetWeb3()
@@ -25,7 +25,7 @@ struct CryptoWallet: Hashable, Identifiable {
 extension CryptoWallet {
     init(from entity: CryptoWalletEntity) {
         self.address = entity.address ?? "Address Unknown"
-        self.name = entity.name
+        self.name = entity.name ?? ""
     }
 }
 
